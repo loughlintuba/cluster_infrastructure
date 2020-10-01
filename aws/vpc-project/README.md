@@ -1,10 +1,8 @@
 # VPC deployment 
-#fuchicorp/docs
+
 
 ### Author
-Created by @fsadykov
-Farkhod Sadykov
-fsadykov.com
+Created by @loughlintuba
 
 ## Before you begin
 1. Make sure you have terraform `11.14`
@@ -26,9 +24,9 @@ Create `tfvars` for VPC
 ##Provide a region for VPC
 environment                     =   "virginia"
 region                          =   "us-east-1"
-s3_bucket                       =   "fuchicorp"
+s3_bucket                       =   "tubes-eks-aws"
 s3_folder_region                =   "us-east-1"
-s3_folder_project               =   "fuchicorp"
+s3_folder_project               =   "eks"
 s3_folder_type                  =   "teamLV"
 s3_tfstate_file                 =   "vpc.tfstate"
 
